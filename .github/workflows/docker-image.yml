@@ -10,7 +10,7 @@ jobs:
 
     runs-on: ubuntu-latest
     container:
-      image: fjonsson:ci-test
+      image: fjonsson/ci-test
 
     steps:
       - name: Greeting
